@@ -35,17 +35,18 @@ API Endpoints
 POST /sleep
 Description: Submit sleep data.
 Request Body:
-code
+**code**
 
 {
   "userId": "user1",
   "hours": 8,
   "timestamp": "2024-05-18T08:00:00Z"
 }
+
 Response Body:
 Response:
 
-code
+**code**
 {
   "id": "unique-record-id",
   "userId": "user1",
